@@ -7,6 +7,7 @@ const config = {
 		adapter: adapter({
 			pages: 'docs',
       		assets: 'docs',
+			fallback:'index.html'
 		}),
 		paths: {
             base:"/portfolio",
