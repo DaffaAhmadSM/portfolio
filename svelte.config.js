@@ -7,9 +7,10 @@ const config = {
 		adapter: adapter({
 			pages: 'docs',
       		assets: 'docs',
-      		fallback: 'index.html',
-      		precompress: false
-		})
+		}),
+		paths: {
+            base:"/portfolio",
+        },
 	},
 	preprocess: [
 		preprocess({
