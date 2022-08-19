@@ -7,17 +7,18 @@ const config = {
 		adapter: adapter({
 			pages: 'docs',
       		assets: 'docs',
-			fallback:'index.html'
+			fallback:'200.html'
 		}),
-		paths: {
-            base:"/portfolio",
-        },
+		trailingSlash: 'always',
 	},
 	preprocess: [
 		preprocess({
 		  postcss: true,
 		}),
 	  ],
+
+
+	
 };
 
 export default config;

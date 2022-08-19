@@ -8,7 +8,7 @@
 			<!-- Items Section -->
 
 			<li class="hover:bg-gray-100">
-				<a href="/portfolio" class="h-16 px-3 flex flex-col justify-center items-center w-full
+				<a href="/" class="h-16 px-3 flex flex-col justify-center items-center w-full
 					focus:text-orange-500">
 					<svg class="w-5 h-5" viewBox="0 0 256 256" stroke="currentColor" stroke-width="2">
 						<path
@@ -18,7 +18,7 @@
 				</a>
 			</li>
 			<li class="hover:bg-gray-100">
-				<a href="/portfolio/works" class="h-16 px-3 flex flex-col justify-center items-center w-full
+				<a href="/works" class="h-16 px-3 flex flex-col justify-center items-center w-full
 					focus:text-orange-500">
 					<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 						fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -32,7 +32,7 @@
 				</a>
 			</li>
 			<li class="hover:bg-gray-100">
-				<a href="/portfolio/contact" class="h-16 px-3 flex flex-col justify-center items-center w-full
+				<a href="/contact" class="h-16 px-3 flex flex-col justify-center items-center w-full
 					focus:text-orange-500">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="w-5 h-5 -rotate-12" viewBox="0 0 28 28" version="1.1">
 						<!-- Uploaded to SVGRepo https://www.svgrepo.com -->
