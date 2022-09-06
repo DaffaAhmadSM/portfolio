@@ -1,15 +1,10 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-netlify';
 import preprocess from "svelte-preprocess";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter({
-			pages: 'docs',
-      		assets: 'docs',
-			fallback:'200.html'
-		}),
-		trailingSlash: 'always',
+		adapter: adapter(),
 	},
 	preprocess: [
 		preprocess({
